@@ -31,7 +31,7 @@ const App = () => {
         <a className='text-blue-500 ml-2' rel="noopener noreferrer" href="https://github.com/dev-shakhawat" target="_blank">Md. Shakhawat Hossain</a>  
       </div>
 
-      {/* URL ইনপুট */}
+      {/* URL input */}
       <div className="w-full max-w-xl flex mb-4">
         <input
           type="text"
