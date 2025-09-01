@@ -17,10 +17,10 @@ const App = () => {
   };
 
   const handleLoadUrl = () => {
-    if (inputUrl.startsWith('http') || inputUrl.startsWith('localhost:')) {
+    if (inputUrl.startsWith('http')) {
       setUrl(inputUrl);
     } else {
-      alert('Please enter a valid URL with http:// or https:// or localhost');
+      alert('Please enter a valid URL with http:// or https://');
     }
   };
 
